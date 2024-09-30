@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("feed/", include("Feed_app.urls")),
     path("myfriends/", include("friends_app.urls")),
+    path("authorization/", include("authorization_app.urls")),
 ]
